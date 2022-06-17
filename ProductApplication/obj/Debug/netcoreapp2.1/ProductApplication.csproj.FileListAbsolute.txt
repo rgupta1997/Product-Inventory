@@ -1,0 +1,14 @@
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\bin\Debug\netcoreapp2.1\ProductApplication.deps.json
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\bin\Debug\netcoreapp2.1\ProductApplication.runtimeconfig.json
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\bin\Debug\netcoreapp2.1\ProductApplication.runtimeconfig.dev.json
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\bin\Debug\netcoreapp2.1\ProductApplication.dll
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\bin\Debug\netcoreapp2.1\ProductApplication.pdb
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\obj\Debug\netcoreapp2.1\ProductApplication.csprojAssemblyReference.cache
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\obj\Debug\netcoreapp2.1\ProductApplication.csproj.CoreCompileInputs.cache
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\obj\Debug\netcoreapp2.1\ProductApplication.RazorAssemblyInfo.cache
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\obj\Debug\netcoreapp2.1\ProductApplication.RazorAssemblyInfo.cs
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\obj\Debug\netcoreapp2.1\ProductApplication.AssemblyInfoInputs.cache
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\obj\Debug\netcoreapp2.1\ProductApplication.AssemblyInfo.cs
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\obj\Debug\netcoreapp2.1\ProductApplication.RazorTargetAssemblyInfo.cache
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\obj\Debug\netcoreapp2.1\ProductApplication.dll
+C:\Users\rohit.g\source\repos\ProductApplication\ProductApplication\obj\Debug\netcoreapp2.1\ProductApplication.pdb
