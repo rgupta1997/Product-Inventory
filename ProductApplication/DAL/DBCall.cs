@@ -34,16 +34,16 @@ namespace ProductApplication.DAL
                     adp.Fill(ds);
                     con.Close();
                 }
-                if(ds != null && ds.Tables[0].Columns.Count > 0 && ds.Tables[0].Rows.Count > 0)
+                if (ds != null && ds.Tables[0].Columns.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
-                    if(product.Optype == 1 || product.Optype == 2|| product.Optype == 3|| product.Optype == 5)
+                    if (product.Optype == 1 || product.Optype == 2 || product.Optype == 3 || product.Optype == 5)
                     {
                         res.ResponseStatus = true;
                         res.ResponseMsg = ds.Tables[0].Rows[0].ToString();
                     }
                     else
                     {
-                        foreach(DataRow item in ds.Tables[0].Rows)
+                        foreach (DataRow item in ds.Tables[0].Rows)
                         {
                             product.ProductId = Convert.ToInt32(item["ProductId"]);
                             product.Description = Convert.ToString(item["Description"]);
@@ -53,12 +53,12 @@ namespace ProductApplication.DAL
                         }
                     }
                 }
-                res.ResponseStatus = false;
-                res.ResponseMsg = "Something is wrong ";
-                
-            }
-            
-
+                else
+                {
+                    res.ResponseStatus = false;
+                    res.ResponseMsg = "Something is wrong ";
+                } 
+            }         
             catch(Exception ex)
             {
                 return res;
