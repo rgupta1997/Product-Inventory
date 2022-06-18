@@ -36,7 +36,7 @@ namespace ProductApplication.DAL
                 }
                 if (ds != null && ds.Tables[0].Columns.Count > 0 && ds.Tables[0].Rows.Count > 0)
                 {
-                    if (product.Optype == 1 || product.Optype == 2 || product.Optype == 3 || product.Optype == 5)
+                    if (product.Optype == 1 || product.Optype == 2 || product.Optype == 3 || product.Optype == 5)//1-Insert,2-Update,3-Delete,4-Fetch,5-Activate
                     {
                         res.ResponseStatus = true;
                         res.ResponseMsg = ds.Tables[0].Rows[0].ToString();
